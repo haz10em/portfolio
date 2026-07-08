@@ -30,45 +30,37 @@ export class ProjectsComponent implements AfterViewInit {
       githubUrl: 'https://github.com/alyaarihazem/portfolio.git',
       icon: 'bx-user-circle',
       description:
-        'A personal portfolio website featuring about me, contacts, live-map location services, message sending, certificates, and GitHub activity integration. Fully customizable and responsive design.',
-      tags: ['HTML', 'CSS', 'JavaScript']
+        'A personal portfolio website featuring about me, contacts, message sending, and a fully customizable responsive design.',
+      tags: ['Angular', 'CSS', 'TypeScript']
     },
     {
-      title: 'MySchool',
-      url: 'https://github.com/alyaarihazem/ASP.NET-with-Angular-18.git',
-      githubUrl: 'https://github.com/alyaarihazem/ASP.NET-with-Angular-18.git',
+      title: 'Web School Management System',
+      url: 'https://github.com/AlyaariHazem/MySchool.git',
+      githubUrl: 'https://github.com/AlyaariHazem/MySchool.git',
       icon: 'bxs-school',
+      featured: false,
       description:
-        'A comprehensive school management system developed with ASP.NET Core Web API and Angular 18. Features student management, course scheduling, and administrative tools.',
-      tags: ['Angular 18', 'ASP.NET Core', 'Web API']
+        'Bilingual school platform built with Angular 18 and ASP.NET Core, with a reusable design system for consistent UI components.',
+      tags: ['Angular 18', 'ASP.NET Core', 'Design System']
     },
     {
-      title: 'MySchool (Desktop)',
-      url: 'https://github.com/AlyaariHazem/My-School-.git',
-      githubUrl: 'https://github.com/AlyaariHazem/My-School-.git',
-      icon: 'bxs-school',
-      description:
-        'Desktop application for school management built with .NET Core. Provides offline capabilities and desktop-specific features for educational institutions.',
-      tags: ['.NET Core', 'Desktop App', 'C#']
-    },
-    {
-      title: 'E-Commerce Website',
+      title: 'E-Commerce Product Page Task',
       url: 'https://github.com/AlyaariHazem/E-Commerce',
       githubUrl: 'https://github.com/AlyaariHazem/E-Commerce',
       icon: 'bx-cart',
       liveDemoUrl: 'https://magenta-kitten-9a6e8a.netlify.app/',
       description:
-        'Modern e-commerce platform with product management, shopping cart, and user authentication. Built with Angular and deployed on Netlify.',
-      tags: ['Angular', 'TypeScript', 'Netlify']
+        'Responsive Angular product page with category filtering, lazy loading, and mobile-friendly design focused on accessibility and modern UI.',
+      tags: ['Angular 18', 'TypeScript', 'SCSS']
     },
     {
-      title: 'MediSync',
+      title: 'Medisync Website',
       url: 'https://github.com/AlyaariHazem/website-Medisync',
       githubUrl: 'https://github.com/AlyaariHazem/website-Medisync',
       icon: 'bxs-clinic',
       description:
-        'Full-stack healthcare platform for patient data management and appointment scheduling. Built with ASP.NET Core backend and Angular frontend.',
-      tags: ['ASP.NET Core', 'Angular', 'Healthcare']
+        'Responsive website built with Angular 18 and ASP.NET Core 8, using modular components and the Repository Pattern.',
+      tags: ['Angular 18', 'ASP.NET Core 8', 'Repository Pattern']
     },
     {
       title: 'Hire-Me',
@@ -76,8 +68,8 @@ export class ProjectsComponent implements AfterViewInit {
       githubUrl: 'https://github.com/AlyaariHazem/Hire-Me',
       icon: 'bx-briefcase-alt-2',
       description:
-        'Interactive recruitment platform with job posting, candidate management, and real-time application tracking. Built with advanced Angular features.',
-      tags: ['Angular', 'Real-time', 'Dashboard']
+        'Interactive recruitment platform with job posting, candidate management, and a dashboard-style user experience.',
+      tags: ['Angular', 'Dashboard', 'UI']
     },
     {
       title: 'Microservices',
@@ -85,8 +77,8 @@ export class ProjectsComponent implements AfterViewInit {
       githubUrl: 'https://github.com/AlyaariHazem/Microservices',
       icon: 'bx-layer',
       description:
-        'Learning project exploring microservices patterns with .NET. Includes distributed systems, cloud-native architecture, and advanced microservices concepts.',
-      tags: ['.NET', 'Microservices', 'Distributed Systems']
+        'Learning project exploring microservices patterns with .NET and service-based application design.',
+      tags: ['.NET', 'Microservices', 'REST API']
     },
     {
       title: 'Clean Architecture .NET',
@@ -94,8 +86,8 @@ export class ProjectsComponent implements AfterViewInit {
       githubUrl: 'https://github.com/AlyaariHazem/clean-architecture-dotnet',
       icon: 'bx-code-alt',
       description:
-        'Production-ready ASP.NET Core project implementing Clean Architecture with separation of concerns, generic repositories, async patterns, and DDD principles.',
-      tags: ['ASP.NET Core', 'Clean Architecture', 'DDD']
+        'ASP.NET Core project organized with clean architecture concepts and separation of concerns.',
+      tags: ['ASP.NET Core', 'Clean Architecture', 'C#']
     },
     {
       title: 'Tawzif Platform',
@@ -103,8 +95,8 @@ export class ProjectsComponent implements AfterViewInit {
       githubUrl: 'https://github.com/AlyaariHazem/tawzif',
       icon: 'bx-grid-alt',
       description:
-        'Microfrontend platform using Webpack Module Federation. Host application integrating remote modules for companies, jobs, and job seekers.',
-      tags: ['Angular', 'Module Federation', 'Micro-Frontend']
+        'Micro frontend platform for companies, jobs, and job seekers built as a modular Angular experience.',
+      tags: ['Angular', 'Micro Frontend', 'TypeScript']
     },
     {
       title: 'Companies Microfrontend',
@@ -112,8 +104,8 @@ export class ProjectsComponent implements AfterViewInit {
       githubUrl: 'https://github.com/AlyaariHazem/Companies',
       icon: 'bx-building',
       description:
-        'Microfrontend application for managing company modules, built with Angular 20 and Module Federation. Designed as a remote app to be integrated into the Tawzif host shell.',
-      tags: ['Angular 20', 'Module Federation', 'Micro-Frontend']
+        'Angular micro frontend for company-related modules designed to integrate into a larger platform.',
+      tags: ['Angular', 'Micro Frontend', 'Module Federation']
     },
     {
       title: 'Jobs Microfrontend',
@@ -121,8 +113,8 @@ export class ProjectsComponent implements AfterViewInit {
       githubUrl: 'https://github.com/AlyaariHazem/Jobs',
       icon: 'bx-briefcase',
       description:
-        'Angular microfrontend for job listings and management, built with Angular 20 and Webpack Module Federation. Designed as a remote module to integrate with the host application (Tawzif).',
-      tags: ['Angular 20', 'Module Federation', 'Micro-Frontend']
+        'Angular micro frontend focused on job listings and job management features.',
+      tags: ['Angular', 'Micro Frontend', 'Jobs']
     },
     {
       title: 'Task Manager',
@@ -130,8 +122,26 @@ export class ProjectsComponent implements AfterViewInit {
       githubUrl: 'https://github.com/AlyaariHazem/Angular-Task-Manager',
       icon: 'bx-task',
       description:
-        'Angular application for task management with RxJS state management. Features task creation, status updates, and component communication.',
+        'Angular task management application with task creation, status updates, and component interaction patterns.',
       tags: ['Angular', 'RxJS', 'State Management']
+    },
+    {
+      title: 'Desktop Application Project',
+      url: 'https://github.com/AlyaariHazem/My-School-.git',
+      githubUrl: 'https://github.com/AlyaariHazem/My-School-.git',
+      icon: 'bx-desktop',
+      description:
+        'Desktop application developed with .NET 8 in collaboration with a teammate, with emphasis on performance, usability, and team-based delivery.',
+      tags: ['.NET 8', 'Desktop App', 'C#']
+    },
+    {
+      title: 'Learning Flutter Project',
+      url: 'https://github.com/AlyaariHazem?tab=repositories',
+      githubUrl: 'https://github.com/AlyaariHazem?tab=repositories',
+      icon: 'bxl-flutter',
+      description:
+        'Learning-focused Flutter project covering cross-platform UI, responsive design, state management, and reusable widgets.',
+      tags: ['Flutter', 'Dart', 'Responsive Design']
     },
     {
       title: 'Eshop Modular Monolith',
@@ -139,8 +149,8 @@ export class ProjectsComponent implements AfterViewInit {
       githubUrl: 'https://github.com/AlyaariHazem/EshopModularMonoliths',
       icon: 'bx-package',
       description:
-        'E-commerce platform built as a modular monolith using ASP.NET Web API, Docker, PostgreSQL, Redis, RabbitMQ, CQRS, MediatR, and DDD patterns.',
-      tags: ['.NET', 'Docker', 'CQRS']
+        'E-commerce platform built as a modular monolith with a focus on backend structure and modular design.',
+      tags: ['.NET', 'Docker', 'Modular Monolith']
     },
     {
       title: 'View All Projects',

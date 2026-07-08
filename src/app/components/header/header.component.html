@@ -12,8 +12,8 @@
         <span class="site-header__status" aria-hidden="true"></span>
       </span>
       <span class="site-header__brand-text">
-        <strong>Hazem Alyaari</strong>
-        <small>Software Engineer · Yemen</small>
+        <strong>Hazem Abdullah Al-Yaari</strong>
+        <small>.NET Full Stack Developer · Sana'a, Yemen</small>
       </span>
     </a>
 
@@ -24,8 +24,6 @@
         <li><a href="#skills">Skills</a></li>
         <li><a href="#services">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li class="site-header__nav-extra"><a href="https://app.daily.dev/hazemalyaari" target="_blank" rel="noopener">Daily.Dev</a></li>
-        <li class="site-header__nav-extra"><a href="https://www.blogger.com/profile/15568617126796440151" target="_blank" rel="noopener">Blog</a></li>
       </ul>
     </nav>
 
@@ -33,12 +31,15 @@
       <div class="site-header__socials">
         <a href="https://www.linkedin.com/in/hazem-al-yaari-65b141307/" target="_blank" rel="noopener" aria-label="LinkedIn">
           <i class="bx bxl-linkedin"></i>
+          <span style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">LinkedIn</span>
         </a>
         <a href="https://github.com/alyaarihazem" target="_blank" rel="noopener" aria-label="GitHub">
           <i class="bx bxl-github"></i>
+          <span style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">GitHub</span>
         </a>
-        <a href="mailto:alyaarihazem@gmail.com" aria-label="Email">
+        <a href="mailto:hazem.dev.pro@gmail.com" aria-label="Email">
           <i class="bx bx-envelope"></i>
+          <span style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">Email</span>
         </a>
       </div>
 
@@ -50,17 +51,21 @@
         type="button"
         class="site-header__theme"
         (click)="theme.toggle()"
+        [attr.title]="theme.isDark() ? 'Switch to light mode' : 'Switch to dark mode'"
         [attr.aria-label]="theme.isDark() ? 'Switch to light mode' : 'Switch to dark mode'">
         <i class="bx" [ngClass]="theme.isDark() ? 'bx-sun' : 'bx-moon'"></i>
+        <span style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">Toggle theme</span>
       </button>
 
       <button
         type="button"
         class="site-header__menu-btn mobile-nav-toggle"
         (click)="toggleMobileMenu()"
+        title="Toggle navigation"
         [attr.aria-expanded]="isMobileMenuOpen"
         aria-label="Toggle navigation">
         <i class="bx" [ngClass]="isMobileMenuOpen ? 'bx-x' : 'bx-menu'"></i>
+        <span style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">Toggle navigation</span>
       </button>
     </div>
   </div>
@@ -72,13 +77,11 @@
       <li><a href="#skills" (click)="closeMobileMenu()">Skills</a></li>
       <li><a href="#services" (click)="closeMobileMenu()">Projects</a></li>
       <li><a href="#contact" (click)="closeMobileMenu()">Contact</a></li>
-      <li><a href="https://app.daily.dev/hazemalyaari" target="_blank" rel="noopener">Daily.Dev</a></li>
-      <li><a href="https://www.blogger.com/profile/15568617126796440151" target="_blank" rel="noopener">Blog</a></li>
     </ul>
     <div class="site-header__drawer-socials">
-      <a href="https://www.linkedin.com/in/hazem-al-yaari-65b141307/" target="_blank" rel="noopener"><i class="bx bxl-linkedin"></i></a>
-      <a href="https://github.com/alyaarihazem" target="_blank" rel="noopener"><i class="bx bxl-github"></i></a>
-      <a href="https://www.facebook.com/profile.php?id=100027605985651" target="_blank" rel="noopener"><i class="bx bxl-facebook"></i></a>
+      <a href="https://www.linkedin.com/in/hazem-al-yaari-65b141307/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><i class="bx bxl-linkedin"></i><span style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">LinkedIn</span></a>
+      <a href="https://github.com/alyaarihazem" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><i class="bx bxl-github"></i><span style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">GitHub</span></a>
+      <a href="mailto:hazem.dev.pro@gmail.com" aria-label="Email" title="Email"><i class="bx bx-envelope"></i><span style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">Email</span></a>
     </div>
   </nav>
 </header>

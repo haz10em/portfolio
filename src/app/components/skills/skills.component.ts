@@ -24,33 +24,33 @@ export class SkillsComponent implements AfterViewInit {
 
   readonly leftSkills: SkillItem[] = [
     { name: 'C#', icon: 'bxl-c-plus-plus', percent: 95 },
-    { name: 'Data Structures and Algorithms', icon: 'bx-code-curly', percent: 90 },
-    { name: 'MySQL, SQL Server, Oracle', icon: 'bx-data', percent: 80 },
-    { name: 'Microservices & Clean Architecture', icon: 'bx-layer', percent: 85 }
+    { name: 'Angular', icon: 'bxl-angular', percent: 95 },
+    { name: 'ASP.NET Core', icon: 'bx-server', percent: 90 },
+    { name: 'SQL Server & MySQL', icon: 'bx-data', percent: 85 }
   ];
 
   readonly rightSkills: SkillItem[] = [
-    { name: 'Angular (v17, v18, v19, v20)', icon: 'bxl-angular', percent: 95 },
-    { name: 'Micro-Frontend & Module Federation', icon: 'bx-grid-alt', percent: 85 },
-    { name: 'Web Development', icon: 'bx-world', percent: 90 },
-    { name: 'Git and GitHub', icon: 'bxl-git', percent: 80 }
+    { name: 'Microservices', icon: 'bx-layer', percent: 85 },
+    { name: 'RxJS & NgRx', icon: 'bx-network-chart', percent: 84 },
+    { name: 'Git & GitHub', icon: 'bxl-git', percent: 82 },
+    { name: 'REST APIs & JWT', icon: 'bx-link', percent: 84 }
   ];
 
   readonly angularFoundational: AngularTopic[] = [
-    { label: 'Angular Fundamentals', icon: 'bx-book-open' },
+    { label: 'Components and Templates', icon: 'bx-book-open' },
     { label: 'Components', icon: 'bx-cube' },
     { label: 'Routing', icon: 'bx-git-branch' },
     { label: 'Forms', icon: 'bx-edit-alt' },
     { label: 'HTTP', icon: 'bx-cloud-download' },
-    { label: 'Basic RxJS', icon: 'bx-pulse' }
+    { label: 'Responsive UI', icon: 'bx-devices' }
   ];
 
   readonly angularMidLevel: AngularTopic[] = [
-    { label: 'Advanced RxJS', icon: 'bx-network-chart' },
+    { label: 'RxJS', icon: 'bx-network-chart' },
     { label: 'Signals', icon: 'bx-broadcast' },
-    { label: 'State Management', icon: 'bx-layer' },
-    { label: 'Testing', icon: 'bx-check-shield' },
-    { label: 'Performance Optimization', icon: 'bx-tachometer' }
+    { label: 'NgRx', icon: 'bx-layer' },
+    { label: 'HTTP Interceptors', icon: 'bx-check-shield' },
+    { label: 'Reusable Angular Libraries', icon: 'bx-extension' }
   ];
 
   barWidth(skill: SkillItem): number {

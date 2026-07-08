@@ -131,9 +131,15 @@
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 700;
   font-size: clamp(2.35rem, 7.5vw, 5.25rem);
-  line-height: 0.95;
+  line-height: 1.02;
   letter-spacing: -0.035em;
   margin: 0 0 clamp(1.25rem, 3vh, 1.75rem);
+}
+
+.hero__word {
+  display: inline-block;
+  white-space: nowrap;
+  word-break: keep-all;
 }
 
 .hero__word:not(:last-child) {

@@ -120,7 +120,7 @@ export class ContactComponent implements OnInit, AfterViewInit {
   }
 
   createEmailLink(): string {
-    const recipient = 'alyaarihazem@gmail.com';
+    const recipient = 'hazem.dev.pro@gmail.com';
     const subject = encodeURIComponent(this.formData.subject);
     const body = encodeURIComponent(
       `Hello Hazem,\n\n` +

@@ -3,8 +3,8 @@
   <div class="container">
     <div class="section-title">
       <span class="eyebrow reveal">02 — Skills</span>
-      <h2 class="section-head reveal">Depth across the full stack.</h2>
-      <p class="reveal">Technical expertise and proficiency levels</p>
+      <h2 class="section-head reveal">Skills reflected in shipped work.</h2>
+      <p class="reveal">Frontend, backend, database, and Angular-focused capabilities.</p>
     </div>
 
     <div class="row skills-content">
@@ -25,6 +25,7 @@
                 class="skill-bar"
                 role="progressbar"
                 [attr.aria-label]="skill.name + ' proficiency'"
+                [attr.title]="skill.name + ' proficiency'"
                 [attr.aria-valuenow]="skill.percent"
                 aria-valuemin="0"
                 aria-valuemax="100"
@@ -52,6 +53,7 @@
                 class="skill-bar"
                 role="progressbar"
                 [attr.aria-label]="skill.name + ' proficiency'"
+                [attr.title]="skill.name + ' proficiency'"
                 [attr.aria-valuenow]="skill.percent"
                 aria-valuemin="0"
                 aria-valuemax="100"
@@ -70,7 +72,7 @@
         </div>
         <div>
           <h3>Angular Expertise</h3>
-          <p>From fundamentals to production-grade patterns</p>
+          <p>Topics I use across Angular projects and reusable libraries</p>
         </div>
       </div>
 
@@ -82,27 +84,17 @@
               Foundations
             </p>
             <ul class="angular-expertise__list">
-              @for (topic of angularFoundational; track topic.label) {
-                <li>
-                  <i class="bx {{ topic.icon }}"></i>
-                  {{ topic.label }}
-                </li>
-              }
+              @for (topic of angularFoundational; track topic.label) {<li><i class="bx {{ topic.icon }}"></i>{{ topic.label }}</li>}
             </ul>
           </div>
         </div>
 
         <div class="col-lg-6">
           <div class="angular-expertise__card">
-            <h4>Mid-Level Angular Developer</h4>
-            <p class="angular-expertise__focus">Focus on:</p>
+            <h4>Production Focus</h4>
+            <p class="angular-expertise__focus">Current emphasis:</p>
             <ul class="angular-expertise__list">
-              @for (topic of angularMidLevel; track topic.label) {
-                <li>
-                  <i class="bx {{ topic.icon }}"></i>
-                  {{ topic.label }}
-                </li>
-              }
+              @for (topic of angularMidLevel; track topic.label) {<li><i class="bx {{ topic.icon }}"></i>{{ topic.label }}</li>}
             </ul>
           </div>
         </div>
