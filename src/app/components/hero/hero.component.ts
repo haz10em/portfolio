@@ -57,7 +57,12 @@ export class HeroComponent implements AfterViewInit {
     }
 
     new Typed('.typed', {
-      strings: ['a .NET Full Stack Developer', 'an Angular Developer', 'from Sana\'a, Yemen'],
+      strings: [
+        'a .NET Full Stack Developer',
+        'an Angular open-source contributor',
+        'a published npm library author',
+        'from Sana\'a, Yemen'
+      ],
       typeSpeed: 100,
       backSpeed: 50,
       backDelay: 2000,

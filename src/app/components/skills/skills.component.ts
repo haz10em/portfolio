@@ -50,7 +50,16 @@ export class SkillsComponent implements AfterViewInit {
     { label: 'Signals', icon: 'bx-broadcast' },
     { label: 'NgRx', icon: 'bx-layer' },
     { label: 'HTTP Interceptors', icon: 'bx-check-shield' },
-    { label: 'Reusable Angular Libraries', icon: 'bx-extension' }
+    { label: 'Reusable Angular Libraries', icon: 'bx-extension' },
+    { label: 'npm Package Publishing', icon: 'bxl-npmjs' },
+    { label: 'Angular Open Source', icon: 'bx-git-branch' }
+  ];
+
+  readonly openSourcePackages: AngularTopic[] = [
+    { label: 'data-grid-angular', icon: 'bx-table' },
+    { label: 'hijiri-calendar', icon: 'bx-calendar' },
+    { label: 'Angular Data Grid components', icon: 'bx-grid-alt' },
+    { label: 'Hijri date utilities for forms', icon: 'bx-edit-alt' }
   ];
 
   barWidth(skill: SkillItem): number {

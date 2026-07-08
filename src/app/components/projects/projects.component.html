@@ -4,7 +4,7 @@
     <div class="section-title">
       <span class="eyebrow reveal">04 — Work</span>
       <h2 class="section-head reveal">Projects that prove the craft.</h2>
-      <p class="reveal">Showcasing my work and technical expertise</p>
+      <p class="reveal">Including published npm libraries, full-stack applications, and open-source Angular work.</p>
     </div>
 
     <div class="row">
@@ -32,7 +32,11 @@
               </div>
             }
             <div class="project-links">
-              @if (project.liveDemoUrl) {
+              @if (project.npmUrl) {
+                <a [href]="project.npmUrl" target="_blank" rel="noopener" class="project-link project-link--primary">
+                  <i class="bx bxl-npmjs"></i> View on npm
+                </a>
+              } @else if (project.liveDemoUrl) {
                 <a [href]="project.liveDemoUrl" target="_blank" rel="noopener" class="project-link project-link--primary">
                   <i class="bx bx-link-external"></i> Live Demo
                 </a>
@@ -42,9 +46,9 @@
                 target="_blank"
                 rel="noopener"
                 class="project-link"
-                [class.project-link--primary]="!project.liveDemoUrl">
+                [class.project-link--primary]="!project.liveDemoUrl && !project.npmUrl">
                 <i class="bx bxl-github"></i>
-                {{ project.viewAll ? 'View All Repositories' : 'View Code' }}
+                {{ project.viewAll ? 'View All Repositories' : (project.npmUrl ? 'View Source' : 'View Code') }}
               </a>
             </div>
           </div>

@@ -10,6 +10,7 @@ interface ProjectCard {
   icon: string;
   featured?: boolean;
   liveDemoUrl?: string;
+  npmUrl?: string;
   viewAll?: boolean;
 }
 
@@ -25,13 +26,24 @@ export class ProjectsComponent implements AfterViewInit {
 
   readonly projects: ProjectCard[] = [
     {
-      title: 'Portfolio Website',
-      url: 'https://github.com/Hazemalyaari/portfolio',
-      githubUrl: 'https://github.com/alyaarihazem/portfolio.git',
-      icon: 'bx-user-circle',
+      title: 'data-grid-angular',
+      url: 'https://www.npmjs.com/package/data-grid-angular',
+      npmUrl: 'https://www.npmjs.com/package/data-grid-angular',
+      githubUrl: 'https://github.com/AlyaariHazem/my-workspace',
+      icon: 'bx-table',
       description:
-        'A personal portfolio website featuring about me, contacts, message sending, and a fully customizable responsive design.',
-      tags: ['Angular', 'CSS', 'TypeScript']
+        'Published npm library providing reusable and customizable Angular Data Grid components with paging, filtering, sorting, and export.',
+      tags: ['Angular', 'npm', 'Data Grid', 'Open Source']
+    },
+    {
+      title: 'hijiri-calendar',
+      url: 'https://www.npmjs.com/package/hijiri-calendar',
+      npmUrl: 'https://www.npmjs.com/package/hijiri-calendar',
+      githubUrl: 'https://github.com/AlyaariHazem/my-workspace',
+      icon: 'bx-calendar',
+      description:
+        'Published npm library for Hijri (Islamic) date support in Angular forms, with validation, reactive forms integration, and Gregorian conversion.',
+      tags: ['Angular', 'npm', 'Hijri Calendar', 'Open Source']
     },
     {
       title: 'Web School Management System',
@@ -88,42 +100,6 @@ export class ProjectsComponent implements AfterViewInit {
       description:
         'ASP.NET Core project organized with clean architecture concepts and separation of concerns.',
       tags: ['ASP.NET Core', 'Clean Architecture', 'C#']
-    },
-    {
-      title: 'Tawzif Platform',
-      url: 'https://github.com/AlyaariHazem/tawzif',
-      githubUrl: 'https://github.com/AlyaariHazem/tawzif',
-      icon: 'bx-grid-alt',
-      description:
-        'Micro frontend platform for companies, jobs, and job seekers built as a modular Angular experience.',
-      tags: ['Angular', 'Micro Frontend', 'TypeScript']
-    },
-    {
-      title: 'Companies Microfrontend',
-      url: 'https://github.com/AlyaariHazem/Companies',
-      githubUrl: 'https://github.com/AlyaariHazem/Companies',
-      icon: 'bx-building',
-      description:
-        'Angular micro frontend for company-related modules designed to integrate into a larger platform.',
-      tags: ['Angular', 'Micro Frontend', 'Module Federation']
-    },
-    {
-      title: 'Jobs Microfrontend',
-      url: 'https://github.com/AlyaariHazem/Jobs',
-      githubUrl: 'https://github.com/AlyaariHazem/Jobs',
-      icon: 'bx-briefcase',
-      description:
-        'Angular micro frontend focused on job listings and job management features.',
-      tags: ['Angular', 'Micro Frontend', 'Jobs']
-    },
-    {
-      title: 'Task Manager',
-      url: 'https://github.com/AlyaariHazem/Angular-Task-Manager',
-      githubUrl: 'https://github.com/AlyaariHazem/Angular-Task-Manager',
-      icon: 'bx-task',
-      description:
-        'Angular task management application with task creation, status updates, and component interaction patterns.',
-      tags: ['Angular', 'RxJS', 'State Management']
     },
     {
       title: 'Desktop Application Project',

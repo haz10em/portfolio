@@ -139,6 +139,12 @@
   }
 }
 
+.about-open-source__intro {
+  margin: 0 0 1rem;
+  color: var(--slate);
+  line-height: 1.7;
+}
+
 .social-link-item {
   flex: 1;
   min-width: min(100%, 260px);

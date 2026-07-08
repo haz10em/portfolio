@@ -77,7 +77,7 @@
       </div>
 
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-4">
           <div class="angular-expertise__card">
             <p class="angular-expertise__card-title">
               <i class="bx bx-book-open"></i>
@@ -89,12 +89,22 @@
           </div>
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-lg-4">
           <div class="angular-expertise__card">
             <h4>Production Focus</h4>
             <p class="angular-expertise__focus">Current emphasis:</p>
             <ul class="angular-expertise__list">
               @for (topic of angularMidLevel; track topic.label) {<li><i class="bx {{ topic.icon }}"></i>{{ topic.label }}</li>}
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="angular-expertise__card">
+            <h4>Open Source on npm</h4>
+            <p class="angular-expertise__focus">Published packages:</p>
+            <ul class="angular-expertise__list">
+              @for (topic of openSourcePackages; track topic.label) {<li><i class="bx {{ topic.icon }}"></i>{{ topic.label }}</li>}
             </ul>
           </div>
         </div>
