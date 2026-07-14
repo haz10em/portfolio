@@ -29,7 +29,7 @@ export class ProjectsComponent implements AfterViewInit {
       title: 'data-grid-angular',
       url: 'https://www.npmjs.com/package/data-grid-angular',
       npmUrl: 'https://www.npmjs.com/package/data-grid-angular',
-      githubUrl: 'https://github.com/AlyaariHazem/my-workspace',
+      githubUrl: 'https://github.com/hazem-alyaari/my-workspace',
       icon: 'bx-table',
       description:
         'Published npm library providing reusable and customizable Angular Data Grid components with paging, filtering, sorting, and export.',
@@ -39,7 +39,7 @@ export class ProjectsComponent implements AfterViewInit {
       title: 'hijiri-calendar',
       url: 'https://www.npmjs.com/package/hijiri-calendar',
       npmUrl: 'https://www.npmjs.com/package/hijiri-calendar',
-      githubUrl: 'https://github.com/AlyaariHazem/my-workspace',
+      githubUrl: 'https://github.com/hazem-alyaari/my-workspace',
       icon: 'bx-calendar',
       description:
         'Published npm library for Hijri (Islamic) date support in Angular forms, with validation, reactive forms integration, and Gregorian conversion.',
@@ -47,8 +47,8 @@ export class ProjectsComponent implements AfterViewInit {
     },
     {
       title: 'Web School Management System',
-      url: 'https://github.com/AlyaariHazem/MySchool.git',
-      githubUrl: 'https://github.com/AlyaariHazem/MySchool.git',
+      url: 'https://github.com/hazem-alyaari/MySchool.git',
+      githubUrl: 'https://github.com/hazem-alyaari/MySchool.git',
       icon: 'bxs-school',
       featured: false,
       description:
@@ -57,8 +57,8 @@ export class ProjectsComponent implements AfterViewInit {
     },
     {
       title: 'E-Commerce Product Page Task',
-      url: 'https://github.com/AlyaariHazem/E-Commerce',
-      githubUrl: 'https://github.com/AlyaariHazem/E-Commerce',
+      url: 'https://github.com/hazem-alyaari/E-Commerce',
+      githubUrl: 'https://github.com/hazem-alyaari/E-Commerce',
       icon: 'bx-cart',
       liveDemoUrl: 'https://magenta-kitten-9a6e8a.netlify.app/',
       description:
@@ -67,8 +67,8 @@ export class ProjectsComponent implements AfterViewInit {
     },
     {
       title: 'Medisync Website',
-      url: 'https://github.com/AlyaariHazem/website-Medisync',
-      githubUrl: 'https://github.com/AlyaariHazem/website-Medisync',
+      url: 'https://github.com/hazem-alyaari/website-Medisync',
+      githubUrl: 'https://github.com/hazem-alyaari/website-Medisync',
       icon: 'bxs-clinic',
       description:
         'Responsive website built with Angular 18 and ASP.NET Core 8, using modular components and the Repository Pattern.',
@@ -76,8 +76,8 @@ export class ProjectsComponent implements AfterViewInit {
     },
     {
       title: 'Hire-Me',
-      url: 'https://github.com/AlyaariHazem/Hire-Me',
-      githubUrl: 'https://github.com/AlyaariHazem/Hire-Me',
+      url: 'https://github.com/hazem-alyaari/Hire-Me',
+      githubUrl: 'https://github.com/hazem-alyaari/Hire-Me',
       icon: 'bx-briefcase-alt-2',
       description:
         'Interactive recruitment platform with job posting, candidate management, and a dashboard-style user experience.',
@@ -85,8 +85,8 @@ export class ProjectsComponent implements AfterViewInit {
     },
     {
       title: 'Microservices',
-      url: 'https://github.com/AlyaariHazem/Microservices',
-      githubUrl: 'https://github.com/AlyaariHazem/Microservices',
+      url: 'https://github.com/hazem-alyaari/Microservices',
+      githubUrl: 'https://github.com/hazem-alyaari/Microservices',
       icon: 'bx-layer',
       description:
         'Learning project exploring microservices patterns with .NET and service-based application design.',
@@ -94,8 +94,8 @@ export class ProjectsComponent implements AfterViewInit {
     },
     {
       title: 'Clean Architecture .NET',
-      url: 'https://github.com/AlyaariHazem/clean-architecture-dotnet',
-      githubUrl: 'https://github.com/AlyaariHazem/clean-architecture-dotnet',
+      url: 'https://github.com/hazem-alyaari/clean-architecture-dotnet',
+      githubUrl: 'https://github.com/hazem-alyaari/clean-architecture-dotnet',
       icon: 'bx-code-alt',
       description:
         'ASP.NET Core project organized with clean architecture concepts and separation of concerns.',
@@ -103,8 +103,8 @@ export class ProjectsComponent implements AfterViewInit {
     },
     {
       title: 'Desktop Application Project',
-      url: 'https://github.com/AlyaariHazem/My-School-.git',
-      githubUrl: 'https://github.com/AlyaariHazem/My-School-.git',
+      url: 'https://github.com/hazem-alyaari/My-School-.git',
+      githubUrl: 'https://github.com/hazem-alyaari/My-School-.git',
       icon: 'bx-desktop',
       description:
         'Desktop application developed with .NET 8 in collaboration with a teammate, with emphasis on performance, usability, and team-based delivery.',
@@ -112,8 +112,8 @@ export class ProjectsComponent implements AfterViewInit {
     },
     {
       title: 'Learning Flutter Project',
-      url: 'https://github.com/AlyaariHazem?tab=repositories',
-      githubUrl: 'https://github.com/AlyaariHazem?tab=repositories',
+      url: 'https://github.com/hazem-alyaari?tab=repositories',
+      githubUrl: 'https://github.com/hazem-alyaari?tab=repositories',
       icon: 'bxl-flutter',
       description:
         'Learning-focused Flutter project covering cross-platform UI, responsive design, state management, and reusable widgets.',
@@ -121,8 +121,8 @@ export class ProjectsComponent implements AfterViewInit {
     },
     {
       title: 'Eshop Modular Monolith',
-      url: 'https://github.com/AlyaariHazem/EshopModularMonoliths',
-      githubUrl: 'https://github.com/AlyaariHazem/EshopModularMonoliths',
+      url: 'https://github.com/hazem-alyaari/EshopModularMonoliths',
+      githubUrl: 'https://github.com/hazem-alyaari/EshopModularMonoliths',
       icon: 'bx-package',
       description:
         'E-commerce platform built as a modular monolith with a focus on backend structure and modular design.',
@@ -130,8 +130,8 @@ export class ProjectsComponent implements AfterViewInit {
     },
     {
       title: 'View All Projects',
-      url: 'https://github.com/AlyaariHazem?tab=repositories',
-      githubUrl: 'https://github.com/AlyaariHazem?tab=repositories',
+      url: 'https://github.com/hazem-alyaari?tab=repositories',
+      githubUrl: 'https://github.com/hazem-alyaari?tab=repositories',
       icon: 'bx-folder-open',
       viewAll: true,
       description:
